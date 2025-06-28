@@ -14,6 +14,7 @@ This site showcases cute cat pictures, a playful gallery, and a form to share yo
 ## 📂 Project Structure
 
 CatPhotoApp/
+
 ├── assets/ # All image files
 
 ├── gallery.css # CSS specific to the gallery page
