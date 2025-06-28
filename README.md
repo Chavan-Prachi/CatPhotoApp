@@ -15,11 +15,17 @@ This site showcases cute cat pictures, a playful gallery, and a form to share yo
 
 CatPhotoApp/
 ├── assets/ # All image files
+
 ├── gallery.css # CSS specific to the gallery page
+
 ├── gallery.html # The Cat Gallery page
+
 ├── index.html # Main homepage of CatPhotoApp
+
 ├── script.js # JS for form submission message
+
 ├── style.css # CSS for main homepage
+
 └── README.md # You are here!
 
 ## 🚀 How to Run Locally
