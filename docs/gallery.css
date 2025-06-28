@@ -1,0 +1,63 @@
+/* -------------- Title-------------- */
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  color: #4d2c15;
+}
+/* ---------- Gallery Grid ---------- */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.gallery-grid figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  text-align: center;
+}
+
+.gallery-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3; /* Keeps all images same shape */
+  object-fit: cover;    /* Crops only overflow edges */
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-grid figcaption {
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #b35b2c;
+}
+
+/* ---------- Back Link ---------- */
+.back-link {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1rem;
+}
+
+.back-link a {
+  color: #4d2c15;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+

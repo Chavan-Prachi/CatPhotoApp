@@ -1,0 +1,171 @@
+/* ---------- Base Styles ---------- */
+body {
+  font-family: Segoe UI Rounded;
+  background-color: #fff8f5;
+  color: #333;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* ---------- Headings ---------- */
+h1 {
+  text-align: center;
+  color: #b35b2c;
+  font-size: 3rem;
+  margin: 0 auto 1rem;
+  font-family: 'Fredoka', Impact, sans-serif;
+  max-width: 90%;
+}
+
+
+h2, h3 {
+  color: #4d2c15;
+  transform: scale(1.25);
+}
+
+/* ---------- Links ---------- */
+a {
+  color: #c26d3d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Lists ---------- */
+ul, ol {
+  margin-left: 2rem;
+}
+
+/* ---------- Images ---------- */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Figures ---------- */
+figure {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* ---------- Form Styling ---------- */
+form {
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+legend {
+  font-weight: bold;
+  color: #803f20;
+}
+
+label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+input[type="text"],
+input[type="url"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #c26d3d;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #a65226;
+}
+
+/* ---------- Confirmation Message ---------- */
+#confirmation-message {
+  background-color: #e7f8e7;
+  border: 1px solid #b2d8b2;
+  color: #257a25;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: #a65226;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  h2, h3 {
+    transform: scale(1); /* prevent zooming in mobile */
+    font-size: 1.4rem;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+
+  input[type="text"],
+  input[type="url"] {
+    font-size: 1rem;
+  }
+
+  figure {
+    margin: 1rem auto;
+  }
+}
