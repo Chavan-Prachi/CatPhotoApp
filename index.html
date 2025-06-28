@@ -3,6 +3,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap" rel="stylesheet">
+
     <title>CatPhotoApp</title>
   </head>
   <body>
@@ -10,9 +14,12 @@
       <h1>CatPhotoApp</h1>
       <section>
         <h2>Cat Photos</h2>
-        <p>Everyone loves <a href="assets/running-cats.jpg">cute cats</a> online!</p>
+        <p>Everyone loves <a href="gallery/assets/running-cats.jpg">cute cats</a> online!</p>
         <p>See more <a target="_blank" href="gallery">cat photos</a> in our gallery.</p>
-        <a href="gallery"><img src="assets/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        <a href="gallery">
+        <figure>
+            <img src="gallery/assets/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        </figure>
       </section>
       <section>
         <h2>Cat Lists</h2>
@@ -23,7 +30,7 @@
           <li>lasagna</li>
         </ul>
         <figure>
-          <img src="assets/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <img src="gallery/assets/lasagna.jpg" alt="A slice of lasagna on a plate.">
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
         </figure>
         <h3>Top 3 things cats hate:</h3>
@@ -33,13 +40,13 @@
           <li>other cats</li>
         </ol>
         <figure>
-          <img src="assets/cats.jpg" alt="Five cats looking around a field.">
+          <img src="gallery/assets/cats.jpg" alt="Five cats looking around a field.">
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
         </figure>
       </section>
       <section>
         <h2>Cat Form</h2>
-        <form action="https://freecatphotoapp.com/submit-cat-photo">
+        <form id="cat-form">
           <fieldset>
             <legend>Is your cat an indoor or outdoor cat?</legend>
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
@@ -54,12 +61,12 @@
           <input type="text" name="catphotourl" placeholder="cat photo URL" required>
           <button type="submit">Submit</button>
         </form>
+        <p id="confirmation-message" style="display: none; color: green; margin-top: 1rem;"></p>
       </section>
     </main>
     <footer>
-      <p>
-        No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a>
-      </p>
+        <p><small>Made with 🐾 by <a href="https://github.com/Chavan-Prachi" target="_blank">Chavan Prachi</a> • No Copyright</small></p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
