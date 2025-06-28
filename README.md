@@ -1,63 +1,78 @@
-# Camper Café Menu
+# 🐾 CatPhotoApp
 
-A responsive website for **Camper Café**, featuring a warm, cozy design inspired by rustic charm, coffee culture, and handcrafted desserts. Built using HTML and CSS, this static site includes a structured menu layout for coffee, desserts, and small plates.
+Welcome to **CatPhotoApp** — a simple, fun, and adorable web app for cat lovers!  
+This site showcases cute cat pictures, a playful gallery, and a form to share your own cat photo link.
+
+## 🌐 Live Site
+
+Check out the live CatPhotoApp here:  
+🔗 [https://chavan-prachi.github.io/CatPhotoApp](https://chavan-prachi.github.io/CatPhotoApp)
+
+
+## ✨ Features
+
+- 😺 Cat photo gallery with funny captions
+- 📋 Interactive cat form (personality, type, and more)
+- 🎨 Beautiful, responsive layout
+- 🌐 Ready to deploy as a live website
+
+## 📂 Project Structure
+
+CatPhotoApp/
+
+│
+
+├── docs/
+
+│   ├── assets/  
+
+│   ├── gallery.css 
+
+│   ├── gallery.html  
+
+│   ├── index.html      
+
+│   ├── script.js       
+
+│   └── style.css  
+
+│
+
+└── README.md  
+
+## 🚀 How to Run Locally
+
+You can view the project on your machine in 2 ways:
+
+### 1. Open Directly
+
+- Download or clone the repository
+- Open `index.html` in your browser
+
+### 2. Use Live Server (Recommended)
+
+If you're using VS Code:
+- Install **Live Server** extension
+- Right-click `index.html` → **Open with Live Server**
 
 ---
 
-## 🔍 Overview
+## 💡 Inspiration
 
-This project simulates the digital menu for a fictional café — **Camper Café** — designed with a clean and modern user interface. It's perfect for practice with semantic HTML, responsive design, and styling fundamentals.
+Built as a fun frontend project to practice HTML, CSS, JavaScript, and layout design — with a sprinkle of 🐱 cuteness!
 
----
-
-## 🚀 Features
-
-- 🖼️ Visually structured café menu
-- 📱 Responsive design for mobile & desktop
-- 💅 Clean layout using CSS3
-- 🧁 Sections for coffee, desserts, and more
-- 🌐 Ready to deploy with GitHub Pages
+> “Time spent with cats is never wasted.” — Sigmund Freud
 
 ---
 
-## 🛠️ Tech Stack
+## 🙋‍♀️ Created By
 
-- HTML5  
-- CSS3  
-
----
-
-## 📸 Live Preview
-
-**🔗 [View Camper Café Menu](https://chavan-prachi.github.io/Camper-cafe-menu/)**  
+👩‍💻 [Chavan Prachi](https://github.com/Chavan-Prachi)
 
 ---
 
-## 📁 Folder Structure
+## 📜 License
 
-Camper-Cafe-Menu/
-
-├── index.html
-
-├── styles.css
-
-├── assets/
-
-│ └── images/
-
-└── README.md
-
----
-
-## 📌 Author
-
-Developed by [Chavan Prachi](https://github.com/Chavan-Prachi)  
-Feel free to fork or contribute!
-
----
-
-## 🧾 License
-
-This project is open for learning and portfolio use.  
-No commercial use without permission.
+This project is for educational and personal use.  
+Images used are copyright-free and publicly available.
 
